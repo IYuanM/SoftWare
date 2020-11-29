@@ -6,7 +6,6 @@
 <property name="severity" value="warning"/>
 
 <!-- module的根节点 -->
-<module name="TreeWalker">
 <module name="PackageName">
 <property name="severity" value="warning"/>
 <property name="format" value="^[a-z]+(\.[a-z_][a-z0-9_]*)*$"/>
