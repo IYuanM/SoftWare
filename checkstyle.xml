@@ -11,15 +11,7 @@
         <property name="max" value="1500"/>
     </module>
 
-    <module name="TreeWalker">
-        <module name="IllegalImport"/>
-        <module name="RedundantImport"/>
-        <module name="UnusedImports" />
 
-        <module name="JavadocType">
-            <property name="allowUnknownTags" value="true"/>
-            <message key="javadoc.missing" value="Class comments: Missing Javadoc comments."/>
-        </module>
 
         <module name="LocalFinalVariableName" />
         <module name="LocalVariableName" />
