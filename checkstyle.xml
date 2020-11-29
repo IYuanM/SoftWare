@@ -2,6 +2,7 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
+     <module name="TreeWalker">
 
     <property name="severity" value="warning"/>
 
@@ -346,6 +347,7 @@
         <property name="severity" value="warning"/>
         <property name="eachLine" value="true"/>
         <message key="containsTab" value="本行包含 tab 字符"/>
+    </module>
     </module>
 </module>
 
